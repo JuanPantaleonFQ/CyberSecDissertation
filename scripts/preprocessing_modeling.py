@@ -46,6 +46,13 @@ print("[INFO] Splitting features and labels...")
 X = df.drop(columns=['Label'])
 y = df['Label']
 
+# 4.5 Clean and convert to numeric
+print("[INFO] Cleaning data...")
+X.replace('', pd.NA, inplace=True)                     # Convert empty strings to missing values
+X = X.apply(pd.to_numeric, errors='coerce')            # Convert all values to numbers, force bad ones to NaN
+X.dropna(inplace=True)                                 # Drop rows with any NaNs
+y = y.loc[X.index]                                     # Keep target aligned with remaining rows
+
 
 # 5. Scale features
 print("[INFO] Scaling features...")
