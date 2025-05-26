@@ -1,5 +1,10 @@
 # ML-Based Intrusion Detection System
-[![My Skills](https://skillicons.dev/icons?i=py,numpy,pandas,matplotlib,scikitlearn,jupyter,bash,git,docker,vscode,c,cpp,java,js,html,css,suricata,wireshark,kali,linux,ansible,grafana,tableau,powerbi,jenkins,githubactions,cypress,selenium,postman,notion,slack)](https://skillicons.dev)
+[![ML & Data Science](https://skillicons.dev/icons?i=py,numpy,pandas,matplotlib,scikitlearn,jupyter)](https://skillicons.dev)
+
+[![Development Tools](https://skillicons.dev/icons?i=bash,git,docker,vscode)](https://skillicons.dev)
+
+[![Cybersecurity Tools](https://skillicons.dev/icons?i=suricata,wireshark,kali,linux)](https://skillicons.dev)
+
 
 ## Overview
 This project investigates the use of machine learning techniques against rule based models to detect cybersecurity threats using publicly available network traffic  in the publicly accesible UNSW-NB15 dataset.
