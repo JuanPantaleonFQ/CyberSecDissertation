@@ -1,7 +1,7 @@
 # ML-Based Intrusion Detection System
 
 ## Overview
-This project investigates the use of machine learning techniques to detect cybersecurity threats using publicly available network traffic datasets.
+This project investigates the use of machine learning techniques against rule based models to detect cybersecurity threats using publicly available network traffic  in the publicly accesible UNSW-NB15 dataset.
 
 ## Folder Structure
 ```text
@@ -30,6 +30,7 @@ This project investigates the use of machine learning techniques to detect cyber
     └── share
 
 16 directories, 7 files
+```
 
 ## Dataset Information
 - **Source**: UNSW-NB15
@@ -40,7 +41,7 @@ This project investigates the use of machine learning techniques to detect cyber
   - `PacketSize`: Size of the network packet
   - `Duration`: Length of the session
   - `Label`: Indicates whether the traffic is benign or an attack
-
+The raw network packets of the UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of UNSW Canberra for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours. The tcpdump tool was utilised to capture 100 GB of the raw traffic (e.g., Pcap files). This dataset has nine types of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. The Argus, Bro-IDS tools are used and twelve algorithms are developed to generate totally 49 features with the class label. These features are described in the UNSW-NB15_features.csv file.
 ## Preprocessing
 - **Feature Selection**: Dropped irrelevant fields like IPs and ports.
 - **Normalization**: Min-Max scaling applied to numeric features.
