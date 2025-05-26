@@ -13,12 +13,15 @@ import sys
 from tqdm import tqdm
 from sklearn.tree import plot_tree
 
-
+'''
+This script preprocesses the UNSW-NB15 dataset, trains a Decision Tree Classifier,
+ evaluates its performance, and visualizes the results. 
+'''
 # === PROJECT ROOT ===
 project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # === OUTPUT DIRECTORY ===
-output_dir = os.path.join(project_root, "output")
+output_dir = os.path.join(project_root, "output/ML-DecisionTree")
 os.makedirs(output_dir, exist_ok=True)
 
 # === UTILITY FUNCTIONS ===

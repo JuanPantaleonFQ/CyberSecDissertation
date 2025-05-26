@@ -1,0 +1,25 @@
+.
+├── README.md
+├── dataset
+│   ├── CSV Files
+│   └── pcaps17-2-2025
+├── merged_output
+│   ├── comparation_output
+│   └── merged_suricata_alerts.csv
+├── output
+│   ├── ML-DecisionTree
+│   ├── suricata_analysis
+│   └── suricata_logs
+├── scripts
+│   ├── model_comparator.py
+│   ├── preprocessing_modeling.py
+│   └── run_suricata_script.py
+├── tree.txt
+└── venv
+    ├── bin
+    ├── include
+    ├── lib
+    ├── pyvenv.cfg
+    └── share
+
+16 directories, 7 files
