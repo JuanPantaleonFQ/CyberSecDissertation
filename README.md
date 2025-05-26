@@ -18,18 +18,6 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-### 🛠 Development Tools
-![VSCode](https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat&logo=gnu-bash&logoColor=white)
-
-
-### Machine Learning & Data Science
-[![ML & Data Science](https://skillicons.dev/icons?i=py,numpy,pandas,tensorflow,scikitlearn,jupyter)](https://skillicons.dev)
-
-### Development Tools
-[![Development Tools](https://skillicons.dev/icons?i=bash,git,docker,vscode)](https://skillicons.dev)
-
 ## Overview
 This project investigates the use of machine learning techniques against rule based models to detect cybersecurity threats using publicly available network traffic  in the publicly accesible UNSW-NB15 dataset.
 
