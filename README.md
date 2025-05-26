@@ -1,9 +1,14 @@
 # ML-Based Intrusion Detection System
+## Technologies Used
+### Machine Learning & Data Science
 [![ML & Data Science](https://skillicons.dev/icons?i=py,numpy,pandas,matplotlib,scikitlearn,jupyter)](https://skillicons.dev)
 
+### Development Tools
 [![Development Tools](https://skillicons.dev/icons?i=bash,git,docker,vscode)](https://skillicons.dev)
 
+### Cybersecurity Tools
 [![Cybersecurity Tools](https://skillicons.dev/icons?i=suricata,wireshark,kali,linux)](https://skillicons.dev)
+
 
 
 ## Overview
