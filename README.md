@@ -40,7 +40,8 @@ This project investigates the use of machine learning techniques against rule ba
   - `Src IP`, `Dst IP`: Source and destination IP addresses (anonymized)
   - `PacketSize`: Size of the network packet
   - `Duration`: Length of the session
-  - `Label`: Indicates whether the traffic is benign or an attack
+  - `Label`: Indicates whether the traffic is benign or an attack.
+
 The raw network packets of the UNSW-NB 15 dataset was created by the IXIA PerfectStorm tool in the Cyber Range Lab of UNSW Canberra for generating a hybrid of real modern normal activities and synthetic contemporary attack behaviours. The tcpdump tool was utilised to capture 100 GB of the raw traffic (e.g., Pcap files). This dataset has nine types of attacks, namely, Fuzzers, Analysis, Backdoors, DoS, Exploits, Generic, Reconnaissance, Shellcode and Worms. The Argus, Bro-IDS tools are used and twelve algorithms are developed to generate totally 49 features with the class label. These features are described in the UNSW-NB15_features.csv file.
 ## Preprocessing
 - **Feature Selection**: Dropped irrelevant fields like IPs and ports.
