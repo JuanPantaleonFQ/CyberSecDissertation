@@ -3,7 +3,8 @@
 ## Overview
 This project investigates the use of machine learning techniques to detect cybersecurity threats using publicly available network traffic datasets.
 
-## Folder structure
+## Folder Structure
+```text
 .
 ├── README.md
 ├── dataset
