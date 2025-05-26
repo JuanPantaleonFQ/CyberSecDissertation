@@ -14,8 +14,11 @@ from tqdm import tqdm
 from sklearn.tree import plot_tree
 
 
+# === PROJECT ROOT ===
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 # === OUTPUT DIRECTORY ===
-output_dir = "output"
+output_dir = os.path.join(project_root, "output")
 os.makedirs(output_dir, exist_ok=True)
 
 # === UTILITY FUNCTIONS ===
@@ -42,7 +45,7 @@ def done():
 
 # === PIPELINE START ===
 step("1. Loading Dataset")
-csv_folder = 'dataset/CSV Files'
+csv_folder = os.path.join(project_root, 'dataset/CSV Files')
 files = ['UNSW-NB15_1.csv', 'UNSW-NB15_2.csv', 'UNSW-NB15_3.csv', 'UNSW-NB15_4.csv']
 df_list = []
 
