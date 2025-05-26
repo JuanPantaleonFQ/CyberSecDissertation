@@ -1,4 +1,4 @@
-# ML-Based Intrusion Detection System
+# Rule-Based vs Machine Learning IDS - A Data Science Approach
 #### Tech-stack 🎛️
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
