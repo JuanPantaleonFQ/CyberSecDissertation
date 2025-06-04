@@ -53,6 +53,7 @@ top_suricata_signatures = suricata_alerts_df["alert_signature"].value_counts().h
 estimated_total_packets = 3526992  # replace with your actual packet count if needed
 estimated_recall_suricata = round(total_suricata_alerts / estimated_total_packets, 4)
 
+
 # === BUILD COMPARISON TABLE ===
 comparison_df = pd.DataFrame({
     "Metric": [
